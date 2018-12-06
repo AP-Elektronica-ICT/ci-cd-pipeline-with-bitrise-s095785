@@ -25,7 +25,7 @@ public class ExampleUnitTest {
         assertEquals(4444, Utils.addNumbers(2222 , 2222));
     }
 
-    //substract
+    //substract haha
     @Test
     public void sub_isCorrect() throws Exception {
         assertEquals(0,Utils.subNumbers(2,2));
