@@ -24,4 +24,20 @@ public class ExampleUnitTest {
     public void add_big_isCorrect() throws Exception {
         assertEquals(4444, Utils.addNumbers(2222 , 2222));
     }
+
+    //substract
+    @Test
+    public void sub_isCorrect() throws Exception {
+        assertEquals(0,Utils.subNumbers(2,2));
+    }
+
+    @Test
+    public void sub_twodigits_isCorrect() throws Exception{
+        assertEquals(44, Utils.subNumbers(88,44));
+    }
+
+    @Test
+    public void sub_big_isCorrect() throws Exception{
+        assertEquals(10000,Utils.subNumbers(15000,5000));
+    }
 }
